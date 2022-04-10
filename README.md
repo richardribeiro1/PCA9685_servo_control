@@ -8,13 +8,12 @@ A easy way to control many servos using PCA9685.
    <img src="https://user-images.githubusercontent.com/65542005/162625448-4540828a-d6cf-48cf-ae85-06361de72a86.png"
         data-canonical-src="https://user-images.githubusercontent.com/65542005/162625448-4540828a-d6cf-48cf-ae85-06361de72a86.png" width="400" height="400" />
 
-   
-      Pros:
-      - Uses only 2 pins to control 16+ servos (communicate via I2C)
-      - Total control of the movement speed and range
+Pros:
+- Uses only 2 pins to control 16+ servos (communicate via I2C)
+- Total control of the movement speed and range
       
-      Cons:
-      - Must know the actual or last position of the servo.
-      
-      Depending of the aplication you can use the servo library <servo.h> and use readMicroseconds() to read the actual position.
-      For this case, check my github.
+Cons:
+- Must know the actual or last position of the servo.
+
+Depending of the aplication you can use the servo library <servo.h> and use readMicroseconds() to read the actual position.
+For this case, check my github.
